@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/6b3a50d5cf.js" crossorigin="anonymous"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    
 
     <title>Heidi Viehoff</title>
   </head>
@@ -29,10 +31,7 @@
         <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Experience</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#skillset">Skillset</a>
       </li>
     </ul>
   </div>
@@ -43,9 +42,9 @@
        <!-- JUMBOTRON HEADER -->
        <section>
         <div class="jumbotron p-5 center-cropped">
-             <div class="d-flex m-5 mb-5 p-5 flex-column mx-auto headerText">
-                <h2 class="fw-normal mt-5 pt-5 ">Heidi Viehoff</h2>
-                <h2 class="fs-4 fs-lg-8 fs-md-6 mt-3 fw-bold">Junior Web Developer</h2>
+             <div class="d-flex m-5 mb-5 p-5 flex-column mx-auto">
+                <h2 class="mt-5 pt-5 py-3 headText">Heidi Viehoff</h2>
+                <h2 class="fs-4 fs-lg-8 fs-md-6 mt-3 headText">Junior Web Developer</h2>
               </div>
           </div>
         </div>
@@ -56,28 +55,27 @@
 
             <!-- ABOUT -->
 
-            <section id="about" class="section-padding">
+            <section id="about" class="section-padding m-0 p-0">
                 <div class="container text-center">
-                    <h2 class="about m-5" id="about">About</h2>
+                    <h2 class="about mx-2 py-4 headText" id="about">About</h2>
                 </div>
-                <div class="container pb-3">
+                <div class="container">
                     <div class="row">
-                        <div class="about-text mx-5 col-md-4 indented">
-                            <p class="lead">I'm originally from New England and I just moved to Indiana last year. I have always had an interest in technology and began teaching myself to code last summer. I enrolled in a coding bootcamp at Eleven Fifty Academy toward the end of last year and have loved every minute of it. </p>
+                        <div class="about-text col-md-5 indented">
+                            <p class="lead">I'm originally from New England and I just moved to Indiana last year. I have always had an interest in technology and began teaching myself to code last summer. I enrolled in a coding bootcamp at Eleven Fifty Academy toward the end of last year I've loved every minute of it. </p>
                             <p class="lead">
-                            I am facinated and intrigued by all the possibilites that a career in coding can hold. I enjoy front end work and being able to use my creativity in my work. I am looking forward to a long career in Web Development and can't wait for it to start.</p>
+                            I enjoy front end work and being able to use my creativity in my work. I am looking forward to a long career in Web Development and can't wait for it to start.</p>
                         </div>
 
-                        <div class="about-text my-5 mx-3 col-md-1">
+                        <div class="about-text col-md-2">
                             <p><img class="aboutIcon"src="./assets/message.gif"></p>
                         </div>
 
-                        <div class="about-text mx-5 col-md-4 indented">
+                        <div class="about-text col-md-5 indented">
                             <p class="lead">I have a Bachelor's Degree in Psychology from the University of New Hampshire and I have worked in the healthcare field for the past 7 years. I love learning new things and solving problems. I have a passion for helping people in any way that I can. </p>
                             <p class="lead">
                             I've been vegan for 5 years and volunteer at a local animal shelter. In my spare time, I enjoy rock climbing, yoga, hiking and starting random art projects that I will never finish.</p>
                         </div>
-                        
                     </div>
                 </div>
             </section>
@@ -85,17 +83,74 @@
 
             <!-- ABOUT -->
 
+            <!-- skillset -->
+
+            <div class="container">
+                <div class="row pb-5">
+    
+                    <div class="container text-center">
+                        <h2 class="headText mx-2 py-4" id="skillset">skillset</h2>
+                    </div>
+                    
+                  <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+                      <div class="skillIcon">
+                    <i class="fa-brands fa-react"></i></div>
+                    <br>
+                    <span class="skillsetTitles">
+                    React</span><br>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+                    <div class="skillIcon">
+                    <i class="fa-brands fa-js-square"></i></div>
+                    <br>
+                    <span class="skillsetTitles">
+                    Javascript</span><br>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+                    <div class="skillIcon">
+                    <i class="fa-brands fa-css3-alt"></i></div>
+                    <br>
+                    <span class="skillsetTitles">
+                    CSS</span><br>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+                    <div class="skillIcon">
+                    <i class="fa-brands fa-html5"></i></div>
+                    <br>
+                    <span class="skillsetTitles">
+                    HTML</span><br>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+                    <div class="skillIcon">
+                    <i class="fa-brands fa-github-square"></i></div>
+                    <br>
+                    <span class="skillsetTitles">
+                    GITHUB</span><br>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+                    <div class="skillIcon">
+                    <i class="fa-brands fa-bootstrap"></i></div>
+                    <br>
+                    <span class="skillsetTitles">
+                    Bootstrap</span><br>
+                  </div> 
+                </div>
+
+
+            <!-- skillset -->
+
 
         <!-- CARDS -->
 
     <section>
-    <div class="container">
         <div class="row">
-            <h2 class="headText pb-4" id="portfolio">Portfolio</h2>
+            <h2 class="headText mx-2 pb-4 py-4" id="portfolio">Portfolio</h2>
         </div>
-
+        
+        <div class="container">
+         <div class="card-group">
     <div class="row gallery centerGallery no-gutters">
-        <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 pb-3">
             <a class="card" href="https://heidibeth.github.io/staticStorefront/" target="blank">
             <img class="img-fluid" src="./assets/TailWhiskerStorefront.png" alt="">
             <div class="card-caption">
@@ -115,28 +170,47 @@
         </div>
             </a>
      </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-        <a class="card" href="https://heidibeth.github.io/APIChallenge/" target="blank">
-            <img class="img-fluid pt-5" src="./assets/PokemonAPI.png" alt="Pokemon API Page">
-            <div class="card-caption">
+     <div class="col-lg-4 col-md-6 col-sm-6 pb-3">
+        <a class="card" href="https://heidibeth.github.io/CSSCreature/" target="blank">
+        <img class="img-fluid pt-5" src="./assets/CSSProject.png" alt="">
+        <div class="card-caption">
             <div class="card-content">
-                
+            <div class="project-name">
+                BMO: 
+            </div>
+            <div class="text">
+            <div class="pt-4 subcategory">
+                A CSS Creation<br>
+            </div><br>
+            <div class="desc">
+                A character designed and replicated <br>solely using CSS<br>
+            </div>
+            </div>
+        </div>
+        </div>
+        </a>
+    </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 pb-3">
+            <a class="card" href="https://to-i8that-client.herokuapp.com/FoodIndex" target="blank">
+            <img class="img-fluid" src="./assets/i8that.png" alt="">
+            <div class="card-caption">
+                <div class="card-content">
                 <div class="project-name">
-                I Choose You: 
+                    Food Tracker: 
                 </div>
                 <div class="text">
                 <div class="pt-4 subcategory">
-                A Pokemon API
+                    A Static HTML/CSS Register Page
                 </div><br>
                 <div class="desc">
-                Designed and built a simple app that will randomize a Pokemon to be selected and display its information<br>
+                    Collaborated in a team of three under a short deadline to style and build this CRUD app medical staff to track the food intake of patients along their weight loss journey<br>
+                </div>
+                </div>
                 </div>
             </div>
-            </div>
-            </div>
-        </a>
+            </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 pt-3">
             <a class="card" href="https://heidibeth.github.io/HTMLRegisterPage/" target="blank">
             <img class="img-fluid pt-5" src="./assets/RegisterPage.png" alt="">
             <div class="card-caption">
@@ -156,41 +230,121 @@
             </div>
             </a>
         </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <a class="card" href="https://heidibeth.github.io/CSSCreature/" target="blank">
-                <img class="img-fluid pt-5" src="./assets/CSSProject.png" alt="">
-                <div class="card-caption">
+            <div class="col-lg-4 col-md-6 col-sm-6 pt-3">
+                <a class="card" href="https://heidibeth.github.io/APIChallenge/" target="blank">
+                    <img class="img-fluid pt-5" src="./assets/PokemonAPI.png" alt="Pokemon API Page">
+                    <div class="card-caption">
                     <div class="card-content">
-                    <div class="project-name">
-                        BMO: 
+                        
+                        <div class="project-name">
+                        I Choose You: 
+                        </div>
+                        <div class="text">
+                        <div class="pt-4 subcategory">
+                        A Pokemon API
+                        </div><br>
+                        <div class="desc">
+                        Designed and built a simple app that will randomize a Pokemon to be selected and display its information<br>
+                        </div>
                     </div>
-                    <div class="text">
-                    <div class="pt-4 subcategory">
-                        A CSS Creation<br>
-                    </div><br>
-                    <div class="desc">
-                        A character designed and replicated <br>solely using CSS<br>
                     </div>
                     </div>
-                </div>
-                </div>
                 </a>
-            </div>
-
+                </div>
+          
+                <div class="col-lg-4 col-md-6 col-sm-6 pb-3">
+                    <a class="card" href="https://heidibeth.github.io/staticStorefront/" target="blank">
+                    <img class="img-fluid" src="./assets/TailWhiskerStorefront.png" alt="">
+                    <div class="card-caption">
+                        <div class="card-content">
+                        <div class="project-name">
+                            Tail & Whisker: 
+                        </div>
+                        <div class="text">
+                        <div class="pt-4 subcategory">
+                            A Static HTML/CSS storefront<br>
+                        </div><br>
+                        <div class="desc">
+                            A nonfunctional design and branding mock-up for a store that specializes in furniture for cats<br>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    </a>
+             </div>
     </div> 
+</div>   
+</div>   
 </div>
 </section>
 
         <!-- CARDS -->
 
+
+         <!-- CONTACT FORM -->
+
+         <script>
+            /* paste this line in verbatim */
+            window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+            /* customize formbutton below*/     
+            formbutton("create", {
+              action: "https://formspree.io/f/xzborlyl",
+              title: "Contact",
+              fields: [
+                { 
+                  type: "email", 
+                  label: "Email:", 
+                  name: "email",
+                  required: true,
+                  placeholder: "your@email.com"
+                },
+                {
+                  type: "textarea",
+                  label: "Message:",
+                  name: "message",
+                  placeholder: "Questions, Comments, Concerns, Quandries",
+                },
+                { type: "submit" }      
+              ],
+              styles: {
+                title: {
+                  backgroundColor: "gray"
+                },
+                button: {
+                  backgroundColor: "gray"
+                }
+              }
+            });
+          </script>
+
+    <!-- <form
+    action="https://formspree.io/f/xzborlyl" method="POST">
+        <div>
+            <label class="form">
+                Email:
+                <br>
+            <input type="email" name="email">
+        </label></div>
+        <div>
+            <label class="form">
+                Message:
+                <br>
+            <textarea name="message"></textarea>
+        </label class="form"></div>
+        <!-- your other form fields go here -->
+        <!-- <button class="" type="submit">Send</button>
+    </form> -->
+
+        <!-- CONTACT FORM -->
+
         <!-- FOOTER -->
-          <footer id="footer" class="footer gray-bg px-5">
-            <div class="px-5">
+          <footer id="footer" class="footer gray-bg pt-3">
+            <div>
                 <ul class="sites mb-5 px-5">
                     <li class="copyright align-left">
-                        <a class="copy-link scroll-top me-0 ps-5" href="">Heidi Viehoff - 2022</a><br />
+                        <a class="copy-link scroll-top" href="">Heidi Viehoff &copy; 2022</a><br />
                     </li>
-                    <li class="align-right pe-5">
+                    <li class="align-right">
                         <a target="_blank" href="mailto: heidibethv@gmail.com"><i class="fa-solid fa-at"></i></a>
                     </li>
                     <li class="align-right">

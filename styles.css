@@ -4,7 +4,6 @@
     width: 100%;
     z-index: 1;
     transition: 1s;
-    background: transparent !important;
 }
 
 .navbar-nav{
@@ -41,6 +40,7 @@ nav a {
 
 .headText{
     margin-top: 20px;
+    margin-left: -50px;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -50,30 +50,43 @@ nav a {
     font-weight: 200;
 }
 
-.about {
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 60px;
-    color: #333;
-    color: rgba(0, 0, 0, 0.65);
-    font-weight: 200;
+
+.text-right{
+    text-align: right;
 }
 
 .aboutIcon{
-    margin-top: 160px;
+    margin-top: 150px;
     height: 150px;
     width: 150px;
     opacity: 0.75;
+    margin-left: -7px;
+    padding-right: 20px;
 }
 
 .lead{
     padding-left: 50px;
+    color: #333;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .indented{
     text-indent: 30pt;
 }
+
+.skillIcon {
+    width: auto;
+}
+.skillsetTitles{
+    color: #333;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 150;
+}
+
 
 .centerGallery {
     justify-content: center;
@@ -185,6 +198,16 @@ nav a {
 .card:hover .subcategory .desc{
     opacity:1;
     transform: translateY(0);
+} */
+/* 
+.form {
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #333;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 200;
 } */
 
 
