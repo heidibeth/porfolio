@@ -1,0 +1,215 @@
+.navbar{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    transition: 1s;
+    background: transparent !important;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    padding: 10px 20px;
+}
+
+
+
+nav a {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.jumbotron {
+    background: url('./assets/selfieBackground.JPG')fixed;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 60vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.65);
+    
+    
+}
+
+.center-cropped{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.headText{
+    margin-top: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 60px;
+    color: #333;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 200;
+}
+
+.about {
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #333;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 200;
+}
+
+.aboutIcon{
+    margin-top: 160px;
+    height: 150px;
+    width: 150px;
+    opacity: 0.75;
+}
+
+.lead{
+    padding-left: 50px;
+}
+
+.indented{
+    text-indent: 30pt;
+}
+
+.centerGallery {
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    box-shadow:0px 2px 3px #dbe6f2;
+    top:15px;
+}
+
+.card{
+    transition: transform 1s;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.card:hover .img-fluid{
+    transform: scale(1.2);
+}
+
+.card .img-fluid{
+    width: 100%;
+    height: auto;
+    transition: transform 1s;
+}
+
+.card .card-caption{
+    position: absolute;
+    display: block;
+    top:0;
+    bottom: 0;
+    width:100%;
+    height:100%;
+    padding: 50% 1%;
+    text-align: center;
+    color: black;
+    background: rgba(219,230,242,0.8);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    opacity: 0;
+}
+
+
+.card .card-caption:hover{
+    opacity: 1;
+}
+
+.card .card-caption .project-name{
+    font-size:24px;
+    width: 100%;
+    color:#333;
+    opacity:0;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    transform: translateY(-50px);
+    transition:all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.card:hover .project-name{
+    opacity:1;
+    transform: translateY(0);
+}
+
+.card-content{
+    display:block;
+    margin:5px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.card .card-caption .card-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center; 
+}
+
+.subcategory .desc{
+    font-size:24px;
+    width: 100%;
+    color:#333;
+    opacity:0;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    transform: translateY(40px);
+    transition:all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+
+
+
+/* .card .card-caption .subcategory .desc{
+    margin:20px 0;
+    padding:0;
+    opacity:0;
+    transform: translateY(100px);
+    transition:all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.20s;
+}
+.card:hover .subcategory .desc{
+    opacity:1;
+    transform: translateY(0);
+} */
+
+
+.footer .sites{
+    list-style: none;
+}
+
+.footer .sites li{
+    display: inline-block;
+}
+
+.copy-link{
+    text-decoration: none;
+    color: #333;
+}
+
+.align-left{
+    float: left;
+}
+
+.align-right{
+    float: right;
+    padding: 10px;
+}
+
+.footer .sites li a{
+    color: #333;
+}
