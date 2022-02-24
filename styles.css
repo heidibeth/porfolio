@@ -75,6 +75,11 @@ nav a {
     text-indent: 30pt;
 }
 
+.skillIcon{
+    color: #333;
+    color: rgba(0, 0, 0, 0.7);
+}
+
 .skillsetTitles{
     color: #333;
     color: rgba(0, 0, 0, 0.65);
