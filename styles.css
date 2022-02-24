@@ -22,8 +22,8 @@ nav a {
 .jumbotron {
     background: url('./assets/selfieBackground.JPG')fixed;
     background-repeat: no-repeat;
-    background-size: 50%;
-    height: 60vh;
+    background-size: 55%;
+    height: 62vh;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgba(0, 0, 0, 0.65);
@@ -50,6 +50,9 @@ nav a {
     font-weight: 200;
 }
 
+.headTitle{
+    margin-left: 20%;
+}
 
 .text-right{
     text-align: right;
