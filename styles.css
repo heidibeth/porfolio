@@ -8,7 +8,7 @@
 
 .navbar-nav{
     margin-left: auto;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 
@@ -22,7 +22,7 @@ nav a {
 .jumbotron {
     background: url('./assets/selfieBackground.JPG')fixed;
     background-repeat: no-repeat;
-    background-size: 55%;
+    background-size: 59%;
     height: 62vh;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -42,7 +42,7 @@ nav a {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 60px;
+    font-size: 50px;
     color: #333;
     color: rgba(0, 0, 0, 0.65);
     font-weight: 200;
@@ -50,6 +50,14 @@ nav a {
 
 .headTitle{
     margin-left: 20%;
+    margin-left: -50px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 60px;
+    color: #333;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 200;
 }
 
 .text-right{
@@ -58,11 +66,11 @@ nav a {
 
 .aboutIcon{
     margin-top: 150px;
+    margin-bottom: 150px;
+    justify-content: center;
     height: 150px;
     width: 150px;
     opacity: 0.75;
-    margin-left: -7px;
-    padding-right: 20px;
 }
 
 .lead{
