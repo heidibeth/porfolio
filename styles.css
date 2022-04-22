@@ -12,7 +12,6 @@
 }
 
 
-
 nav a {
     text-transform: uppercase;
     font-size: 14px;
@@ -20,7 +19,7 @@ nav a {
 }
 
 .jumbotron {
-    background: url('./assets/selfieBackground.JPG')fixed;
+    background: url('./assets/selfieBackground.JPG') fixed;
     background-repeat: no-repeat;
     background-size: 59%;
     height: 62vh;
